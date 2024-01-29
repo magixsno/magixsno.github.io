@@ -1,0 +1,250 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-image:url('sno_background.png'); 
+	background-position:center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:1000px;
+	width:100%;
+}
+
+.no-js section {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+
+#mission {
+	margin-top: 300px;
+	padding-top: 300px;
+}
+
+#slide-1 .bcg {
+	background-color:rgba(0,0,0,0.5);
+	min-height:800px;
+	width:98%;
+	float:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-2 .bcg {
+	background-color:rgba(13,0,20,0.7);
+	min-height:800px;
+	width:98%;
+	float:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#slide-3 .bcg {
+	background-color:rgba(40,16,5,0.7);
+	min-height:800px;
+	width:98%;
+	float:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-4 .bcg {
+	font-family:"Courier New", Courier, monospace;
+}
+
+#slide-4 .hsContent {
+	height: 80px;
+}
+
+.designed p {
+	margin-top: 80px;
+	padding-top: 80px;
+}
+
+.projects p {
+	font-size: 14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #FFFFFF;
+	width:90%;
+	text-align: left;
+	padding-left: 20px;
+	vertical-align: center;
+}
+
+#project_container h3 {
+	width: 80%;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:20px;
+    padding-bottom: 10px;
+	margin: 0 auto;
+	color: #d2d2d2;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}	
+
+#project_container {
+	background-color:rgba(34,34,34,1.0);
+	min-height:250px;
+	width:40%;
+	display: inline-table;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+.personal p {
+	font-size: 14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #FFFFFF;
+	width:90%;
+	text-align: left;
+	padding-left: 20px;
+	vertical-align: center;
+}	
+
+#personal_container {
+	background-color:rgba(34,34,34,1.0);
+	min-height:250px;
+	width:40%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-table;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+#personal_container h3 {
+	width: 80%;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:20px;
+    padding-bottom: 10px;
+	margin: 0 auto;
+	color: #d2d2d2;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}	
+
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+    padding-bottom: 25px;
+}
+
+.hsContent {
+	max-width: 100%;
+	margin: 0 auto 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ebebeb;
+	/*padding: 0 8%;*/
+	text-align: center;
+	position: relative;
+	z-index: 10;
+    height: 375px;
+}
+	.hsContent h2,
+	.copy h2 {
+		color: #ffffff;
+		font-size: 35px;
+		line-height: 48px;
+		margin-bottom: 12px;
+        text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000; 
+	}
+	.hsContent h4 {
+		width: 80%;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+		margin: 0 auto;
+		color: #d2d2d2;
+        text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000; 
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+
+	.hsContent a {
+		color: #b2b2b2;
+		text-decoration: underline;
+	}
+	.bgBlack {
+		background-color: rgba(0,0,0,0.75);
+		padding: 3px 10px;
+	}
+
+@media only screen and (max-device-width: 3.5em) {
+
+#project_container {
+	background-color:rgba(255,255,0,0.3);
+	min-height:250px;
+	width:90%;
+	float:left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+#personal_container {
+	background-color:rgba(233,233,0,0.3);
+	float:left;
+	min-height:250px;
+	width:90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+#slide-1 .bcg {
+	background-color:rgba(0,0,0,0.5);
+	height:auto;
+	width:98%;
+	float:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-2 .bcg {
+	background-color:rgba(13,0,20,0.7);
+	height:auto;
+	width:98%;
+	float:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#slide-3 .bcg {
+	background-color:rgba(64,0,41,0.7);
+	height:auto;
+	width:98%;
+	float:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+}
