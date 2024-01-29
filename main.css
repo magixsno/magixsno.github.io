@@ -74,6 +74,11 @@ body {
 	text-align: left;
 	padding-left: 20px;
 	vertical-align: center;
+	text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
 }
 
 #project_container h3 {
@@ -113,6 +118,11 @@ body {
 	text-align: left;
 	padding-left: 20px;
 	vertical-align: center;
+	text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000; 
 }	
 
 #personal_container {
