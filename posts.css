@@ -1,0 +1,252 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color:#000000;
+    background-image:url('sno_background.png'); 
+	background-position:center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:1000px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 66.7%;
+}
+
+.no-js section {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+
+#title-1 {
+	color: #ffffff;
+	font-size: 35px;
+	line-height: 48px;
+	margin-bottom: 12px;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+
+}
+
+#title-2 {
+	color: #121212;
+	font-size: 35px;
+	line-height: 48px;
+	margin-bottom: 12px;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff; 
+}
+
+#slide-1 .bcg {
+	background-color:rgba(34,34,34,1.0);
+	min-height:300px;
+	width:1200px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-1 h3 {
+	width:90%;
+    font-size: 20px;
+    margin-left: auto;
+    padding-right: 30px;
+	color: #ffffff;
+	text-align: left;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#slide-1 img {
+	float: left;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#slide-2 .bcg {
+	background-color:rgba(255, 255, 255, 1.0);
+	min-height:300px;
+	width:1200px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-2 h3 {
+	width:90%;
+    font-size: 20px;
+    margin-left: auto;
+    padding-right: 35px;
+	color: #121212;
+	text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#slide-2 img {
+	float: right;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#slide-4 .bcg {
+	font-family:"Courier New", Courier, monospace;
+}
+
+#slide-4 .hsContent {
+	height: 80px;
+}
+
+.designed p {
+	margin-top: 80px;
+	padding-top: 80px;
+}
+
+.slide-1-container div {
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+.slide-2-container div {
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+.slide-1-container p {
+	font-size: 14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #d2d2d2;
+	text-align: left;
+	vertical-align: center;
+}	
+
+.slide-2-container p {
+	font-size: 14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #222222;
+	text-align: center;
+	vertical-align: center;
+}	
+
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+    padding-bottom: 25px;
+}
+
+.hsContent {
+	max-width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ebebeb;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+    height: 375px;
+}
+.hsContent h2,
+.copy h2 {
+	color: #ffffff;
+	font-size: 35px;
+	line-height: 48px;
+	margin-bottom: 12px;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+}
+.hsContent h4 {
+	width: 80%;
+    font-size: 20px;
+	color: #d2d2d2;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.hsContent a {
+	color: #fffffe;
+}
+
+.hsContent a:hover {
+	color: #d2d2d2;
+	text-decoration: underline;
+}
+
+@media only screen and (min-width:800px) and (max-width: 1200px) {
+
+#slide-1 .bcg {
+	background-color:rgba(34,34,34,1.0);
+	height:auto;
+	width: 800px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-2 .bcg {
+	background-color:rgba(255, 255, 255, 1.0);
+	height:auto;
+	width: 800px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+}
+
+@media only screen and (max-width: 800px) {
+
+#slide-1 img {
+	float:none;
+}
+
+#slide-1 .bcg {
+	background-color:rgba(34,34,34,1.0);
+	height:auto;
+	width: 98%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#slide-2 img {
+	float:none;
+}
+
+#slide-2 .bcg {
+	background-color:rgba(255, 255, 255, 1.0);
+	height:auto;
+	width: 98%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+}
